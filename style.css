@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.bloque-banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: ;
+}
+
+.bloque-banner1 img {
+    width: 10px;
+    height: auto;
+}
+.bloque-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.bloque-banner img {
+    width: 90px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 40px;
+    font-family: "Times New Roman";
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+
+    height: 60vh !important;
+    background: url(img/fondo.jpg) no-repeat center;
+    background-size: cover;
+}
+.despleg {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border: 2px solid #64B7F6;
+    color: white;
+    text-decoration: none;
+    background: #64B7F6;
+}
+
+.btn:hover {
+    background: #0747a1;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    
+    display: flex;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #ffffff;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    margin-top: 10px;
+    height: 20rem;
+    width: 17rem;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;
+    background: #0747A1; AQUI ESTA EL FONDO DE RECTANGULOS
+   
+}
+.box-container .box li{
+    height: 1rem;
+    margin-right: 25%;
+    width: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #41A7F5;
+    font-size: 2rem;
+    margin: 1rem 0;
+    margin-top: 10px;
+   
+   
+    
+}
+.box-container .box i {
+    height: 3rem;
+    margin-right: 25%;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #41A7F5;
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+
+}
+
+.box-container .box h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #41A7F5 ;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    display: flex;
+    background: #ffffff;
+}
+
+.price {
+    background: url(img/ai.avif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #ffffff;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+   .origen {
+    text-align: center;
+   }
+    
+
+}
+ .contenedora{
+        width:60%;
+        padding: 10%;
+        text-align: justify;
+    }
+    .contenedorb{
+        background: url(img/persona.jpg) no-repeat center;
+        width:40%;
+        padding: 10%;
+    }
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    overflow-x: auto;
+    transition: transform 0.5s ease;
+}
+
+.imagen {
+    width: 200px; /* Ajustar según el tamaño deseado */
+    height: 200px; /* Ajustar según el tamaño deseado */
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.imagen.active {
+    transform: translateX(0);
+}
+
+.anterior,
+.siguiente {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ccc;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.anterior {
+    
+    left: 0;
+}
+
+.siguiente {
+  
+    right: 0;
+}
+
+/* Contenedor principal */
+.contenedor-redes-sociales {
+  font-family: "Times New Roman";
+  background-color: black; /* Azul marino oscuro */
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Texto */
+.texto-redes-sociales {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px   ;
+}
+
+/* Iconos de redes sociales */
+.iconos-redes-sociales {
+  display: flex;
+  justify-content: center;
+
+}
+
+.iconos-redes-sociales a {
+  display: inline-block;
+  margin: 0 5px;
+
+}
+
+.iconos-redes-sociales i {
+  font-size: 24px;
+     height: 3rem;
+    margin-right: 25%;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #bbdffb;
+    background: black;
+    font-size: 2rem;
+    margin: 1rem 0;
+}

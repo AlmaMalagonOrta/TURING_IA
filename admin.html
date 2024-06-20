@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión de Administrador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor-login">
+        <h1>Inicio de sesión de Administrador</h1>
+        <form action="validar_admin.php" method="post">
+            <label for="nombre_admin">Nombre de usuario:</label>
+            <input type="text" id="nombre_admin" name="nombre_admin" placeholder="Ingrese su nombre de usuario" required>
+            <label for="contrasena_admin">Contraseña:</label>
+            <input type="password" id="contrasena_admin" name="contrasena_admin" placeholder="Ingrese su contraseña" required>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
+</body>
+</html>

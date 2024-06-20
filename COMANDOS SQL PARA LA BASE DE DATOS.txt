@@ -1,0 +1,21 @@
+CREATE DATABASE atic;
+use atic;
+CREATE TABLE usuarios_normales (
+  id_usuario_normal INT PRIMARY KEY AUTO_INCREMENT,
+  nombre_normal VARCHAR(50) NOT NULL,
+  contrasena_normal VARCHAR(255) NOT NULL
+);
+CREATE TABLE usuarios_admin (
+  id_usuario_admin INT PRIMARY KEY AUTO_INCREMENT,
+  nombre_admin VARCHAR(50) NOT NULL,
+  contrasena_admin VARCHAR(255) NOT NULL
+);
+
+INSERT INTO usuarios_normales (nombre_normal, contrasena_normal)
+VALUES
+  ('alma', '123456789'),
+  ('vianey', '987654321');
+INSERT INTO usuarios_admin (nombre_admin, contrasena_admin)
+VALUES
+  ('malagon', 'pas123'),
+  ('cuervo', 'pass987');
